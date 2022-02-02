@@ -1,0 +1,165 @@
+
+
+body{
+margin:0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url('./HD-wallpaper-youtube-carbon-logo-grunge-art-carbon-background-creative-youtube-black-logo-social-network-youtube-logo-youtube.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100vh;
+
+header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-image: url('./BbHAtC.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width:100%;
+margin-bottom: 50px;
+.header-image{
+   height:80px;
+   width:80px;
+    border-radius: 100%;
+    padding:10px;
+opacity: 0,5;
+>img{
+    width:100%;
+aspect-ratio: 1/1;
+}
+
+
+}
+
+.searchfields{
+display: flex;
+align-items: center;
+position: relative;
+
+.searchresults{
+    position: absolute;
+    top:10px;
+    right:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+>input{
+    border:none;
+border-radius: 10px;
+height: 20px;
+}
+
+>li{
+    font-size: 80%;
+    width:90%;
+    background-color: rgba(255, 255, 255, 0.8);
+    list-style-type:none;
+    padding:5px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+>li:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+}
+>button{
+    width:30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    >img{
+    width: 100%;
+    
+    }
+    }
+
+}
+
+
+}
+
+
+.iframeandbutton{
+    position: relative;
+    width:560px;
+iframe{
+    display:none;
+
+    
+}
+.showIframe{
+    height:350px;
+  width:100%;
+    display:block;
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.closebutton{
+
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.hideclosebutton{
+    display:none;
+}
+
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    text-align: left;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width:80%;
+.card{
+padding:10px;
+border:1px solid grey;
+background-color: rgba(240, 255, 240, 0.4);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items:flex-start;
+width:21%;
+margin: 40px auto;
+overflow: hidden;
+text-overflow: ellipsis;
+
+>img{
+    width:100%;
+}
+}
+
+.card:hover{
+
+background-color: rgba(128, 128, 128, 0.4);
+
+}
+
+
+
+}
+
+
+a{
+
+    padding:50px;
+    color:white;
+}
+
+
+}

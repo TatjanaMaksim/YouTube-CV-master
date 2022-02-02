@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("./HD-wallpaper-youtube-carbon-logo-grunge-art-carbon-background-creative-youtube-black-logo-social-network-youtube-logo-youtube.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("./BbHAtC.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+body header .header-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  padding: 10px;
+  opacity: 0,5;
+}
+
+body header .header-image > img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+body header .searchfields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+body header .searchfields .searchresults {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .searchfields .searchresults > input {
+  border: none;
+  border-radius: 10px;
+  height: 20px;
+}
+
+body header .searchfields .searchresults > li {
+  font-size: 80%;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.8);
+  list-style-type: none;
+  padding: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+body header .searchfields .searchresults > li:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+body header .searchfields > button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .searchfields > button > img {
+  width: 100%;
+}
+
+body .iframeandbutton {
+  position: relative;
+  width: 560px;
+}
+
+body .iframeandbutton iframe {
+  display: none;
+}
+
+body .iframeandbutton .showIframe {
+  height: 350px;
+  width: 100%;
+  display: block;
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
+body .iframeandbutton .closebutton {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body .iframeandbutton .hideclosebutton {
+  display: none;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: left;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 80%;
+}
+
+body .container .card {
+  padding: 10px;
+  border: 1px solid grey;
+  background-color: rgba(240, 255, 240, 0.4);
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 21%;
+  margin: 40px auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+body .container .card > img {
+  width: 100%;
+}
+
+body .container .card:hover {
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
+body a {
+  padding: 50px;
+  color: white;
+}
+/*# sourceMappingURL=yt.css.map */
